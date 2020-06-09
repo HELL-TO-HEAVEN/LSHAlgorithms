@@ -23,7 +23,7 @@ R = 0.40
 ```
 # Setup hash-table
 ht = lsh_naive.LSH(n_dims=n_dims,k=k,L=L,R=R,n_candidates=n_candidates,query_mode='kdtree')
-ht.setup(train_data)
+ht.setup(data)
 ```
 
 ```
